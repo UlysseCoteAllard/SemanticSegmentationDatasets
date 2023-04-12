@@ -11,7 +11,7 @@ The Dance Dataset dataset is based on data from: Dance Dataset (https://doi.org/
 The artificial datasets conists of multiple timeseries divided into train, validation and test sets. The data is represented in a csv-format where each column contains the data from one channel, except for the last column which contains the true changepoint location between the gestures/dance-moods (represented as: 0=No Changepoint, 1=Changepoint). 
 
 ### EMG Artificial
-The EMG artificial dataset is based on 3DC which is a ten-channel, dry electrode 3D printed EMG band with a sampling rate of 1000 Hz.
+The EMG artificial dataset is has data from "3DC" which is a ten-channel, dry electrode 3D printed EMG band with a sampling rate of 1000 Hz.
 
 Example:  
 channel0,channel1,channel2,channel3,channel4,channel5,channel6,channel7,channel8,channel9,true_locs
@@ -23,7 +23,7 @@ channel0,channel1,channel2,channel3,channel4,channel5,channel6,channel7,channel8
 
 
 ### Dance Artificial
-The Dance Dataset dataset is based on a nine degree of freedom IMU (inertial measurement unit). Data from the two IMU sensors are represented by yaw, pitch roll coordinates and are sampled at 50Hz.
+The Dance Dataset dataset has data from on a nine degree of freedom IMU (inertial measurement unit). Data from the two IMU sensors are represented by yaw, pitch roll coordinates and are sampled at 50Hz.
 
 |     | Pitch    | Yaw      | Roll     |
 |-----|----------|----------|----------|
